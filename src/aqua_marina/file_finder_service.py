@@ -11,7 +11,7 @@ class FileFinderService:
     """Find a file upwards from a starting directory."""
 
     def __init__(self, isfile=path.isfile, abspath=path.abspath):
-        """Initialise the file finder service, these items can be mocked for testing."""
+        """Initialise the file finder service, so items can be mocked for testing."""
         self.isfile = isfile  # so we can confirm if a file exists.
         self.abspath = (
             abspath  # so we can get the complete path to where we are to begin with.
@@ -28,5 +28,5 @@ class FileFinderService:
                 return potential_path
             parent_directory = path.dirname(current_directory)  # move up a directory.
             if current_directory == parent_directory:
-                return None  # because you reached the root of the filesystem without finding the file.
+                return None  # you reached the root of the filesystem without finding.
             current_directory = parent_directory  # move up a directory and try again.
