@@ -35,11 +35,9 @@ dependencies = [
 "repository" = "https://github.com/joejcollins/aqua-marina"
 "documentation" = "https://github.com/joejcollins/aqua-marina"
 
-[tool.setuptools]
-py-modules = [
-    "src",
-    "tests"
-]  # Disable auto discovery of modules (only include the ones we specifically want).
+# Find all the packages in the project using automatic discovery (src-layout).
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [tool.black]
 line-length = 88
