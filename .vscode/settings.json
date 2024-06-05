@@ -6,7 +6,7 @@
     "python.testing.pytestEnabled": true,
     "python.testing.unittestEnabled": false,
     "python.testing.pytestArgs": [
-      "./tests/pytest"
+      "./tests"
     ],
     "files.exclude": {
       "**/*.pyc": {

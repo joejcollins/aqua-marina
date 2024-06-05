@@ -2,12 +2,15 @@ name: aqua-marina
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
+  - black
   - imageio
   - ipykernel # required for jupyter notebook in VS Code
   - ipympl
   - matplotlib
   - pillow
-  - scikit-image
+  - pytest
+  - python=3.11
   - ruff
-  - black
+  - scikit-image
+  - pip:
+    - -e .
