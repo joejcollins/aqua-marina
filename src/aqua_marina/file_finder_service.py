@@ -30,3 +30,8 @@ class FileFinderService:
             if current_directory == parent_directory:
                 return None  # you reached the root of the filesystem without finding.
             current_directory = parent_directory  # move up a directory and try again.
+
+    def find_root(self, start_directory: str = ".") -> Any:
+        """Find the root of the project."""
+        pyproject_toml = self.find_file_upwards("pyproject.toml", start_directory)
+        return path.dirname(pyproject_toml) if pyproject_toml else None
