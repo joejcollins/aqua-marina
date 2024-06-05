@@ -39,7 +39,7 @@ dependencies = [
 py-modules = [
     "src",
     "tests"
-]  #  Disable auto discovery of modules (and only include the ones we specifically want).
+]  # Disable auto discovery of modules (only include the ones we specifically want).
 
 [tool.black]
 line-length = 88

@@ -7,10 +7,17 @@
         "cmap",
         "devcontainer",
         "eamodio",
+        "figsize",
+        "GPSTAGS",
         "imageio",
+        "immeta",
         "imread",
         "imshow",
+        "imwrite",
+        "ipympl",
         "mypy",
+        "ndarray",
+        "numpy",
         "skimage"
     ]
 }
