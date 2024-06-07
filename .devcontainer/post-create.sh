@@ -1,4 +1,4 @@
 # Upgrade the virtual environment and report.
-make clean
+mv /tmp/conda/.conda ./.conda
 make venv
 make report
