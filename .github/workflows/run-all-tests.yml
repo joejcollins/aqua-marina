@@ -17,7 +17,8 @@ jobs:
         submodules: false
         clean: true
 
-    - name: Run tests (dependencies should be present in the Docker image).
+    - name: Run tests.
       run: |
+        make venv
         make test
 ...
