@@ -3,7 +3,7 @@ name: Build Docker Image
 on:
   push:
     branches: [ main ]
-    paths: ['environment.yml']
+    paths: ['Dockerfile', 'environment.yml']
 
 # Run building the docker image that runs our Flask App?
 jobs:
