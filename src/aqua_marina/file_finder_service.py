@@ -1,10 +1,14 @@
-"""File finder service.
-
-It is constructed like this so that it can be easily tested.
-"""
+"""File finder service."""
 
 from os import path
 from typing import Any
+
+
+def find_training_image(image_name: str) -> str:
+    """Find the training image."""
+    file_finder = FileFinderService()
+    root = file_finder.find_root()
+    return path.join(root, "data/raw/training", image_name)
 
 
 class FileFinderService:

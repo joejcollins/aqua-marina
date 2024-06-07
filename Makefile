@@ -16,4 +16,5 @@ check-path:
 	@echo $(PATH)
 
 test:
-	which bash
+	conda activate aqua-marina
+	pytest ./tests
