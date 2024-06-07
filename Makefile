@@ -16,4 +16,4 @@ check-path:
 	@echo $(PATH)
 
 test: # Run the tests in the conda environment.
-	conda init && conda activate aqua-marina && pytest ./tests
+	source ~/.bash_profile && conda activate aqua-marina && pytest ./tests
