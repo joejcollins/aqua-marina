@@ -7,6 +7,7 @@ clean: # Remove the virtual environment.
 venv: # Create a virtual environment.
 	conda init
 	conda env create --file environment.yml
+	. activate aqua-marina; pip install -e .
 
 .PHONY: help
 help: # Show help for each of the makefile recipes.

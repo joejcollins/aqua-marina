@@ -6,10 +6,9 @@ FROM mcr.microsoft.com/devcontainers/anaconda:0-3
 # RUN if [ -f "/tmp/conda-tmp/environment.yml" ]; then umask 0002 && /opt/conda/bin/conda env update -n base -f /tmp/conda-tmp/environment.yml; fi \
 #     && rm -rf /tmp/conda-tmp
 
-COPY pyproject.toml .
-COPY Makefile .
+# Premake the venv.
 COPY environment.yml .
-RUN make venv
+RUN conda env create -f environment.yml
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \

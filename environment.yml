@@ -13,5 +13,3 @@ dependencies:
   - python=3.11
   - ruff
   - scikit-image
-  - pip:
-    - -e .

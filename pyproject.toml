@@ -17,17 +17,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "black",
-    "debugpy",  # only required for debugging, not needed for production.
-    "mypy",
-    "pandas",
-    "pydantic",
-    "pip-tools", # used to manage requirements.txt.
-    "pytest",  # used for testing, not needed for production.
-    "radian",
-    "ruff",
-    "sourcery",
-    "jupyter"
+    # None because they are installed by the conda environment.yml file.
 ]
 
 [project.urls]
