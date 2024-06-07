@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/miniconda:0-3
+FROM mcr.microsoft.com/devcontainers/anaconda:0-3
 
 # Premake the virtual environment so it can be used for testing.
 COPY environment.yml /tmp/conda-tmp/
