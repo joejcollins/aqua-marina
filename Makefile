@@ -4,7 +4,7 @@
 clean: # Remove the virtual environment.
 	conda remove --name aqua-marina --all --yes
 
-env: # Create a virtual environment.
+venv: # Create a virtual environment.
 	conda init
 	conda env create --file environment.yml
 
