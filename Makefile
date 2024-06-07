@@ -4,9 +4,9 @@
 clean: # Remove the virtual environment.
 	conda remove --name aqua-marina --all --yes
 
-venv: # Create a virtual environment.
+venv: # Create a virtual environment or if is it already there add the local package.
 	-conda env create --file environment.yml
-	. activate aqua-marina; pip install -e .
+	. activate aqua-marina; pip install --editable .
 
 .PHONY: help
 help: # Show help for each of the makefile recipes.
