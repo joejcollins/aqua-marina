@@ -30,7 +30,6 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Set short git commit SHA
-      id: vars
       run: |
         calculatedSha=$(git rev-parse --short ${{ github.sha }})
         echo "COMMIT_SHORT_SHA=$calculatedSha" >> $GITHUB_ENV
