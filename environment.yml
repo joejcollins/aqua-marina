@@ -8,6 +8,7 @@ dependencies:
   - ipympl
   - matplotlib
   - pillow
+  - pip
   - pytest
   - python=3.11
   - ruff
