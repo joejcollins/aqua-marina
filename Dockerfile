@@ -1,6 +1,7 @@
 FROM mcr.microsoft.com/devcontainers/anaconda:0-3
 
-# Premake the venv.
+# Premake the venv for the vscode user.
+USER vscode
 COPY environment.yml .
 RUN conda env create -f environment.yml
 
