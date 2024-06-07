@@ -15,6 +15,7 @@
         "imshow",
         "imwrite",
         "ipympl",
+        "joejcollins",
         "mypy",
         "ndarray",
         "numpy",

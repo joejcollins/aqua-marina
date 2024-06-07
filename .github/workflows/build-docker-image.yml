@@ -1,4 +1,4 @@
-name: Build the Docker image
+name: Build Docker image
 
 on:
   push:
@@ -42,5 +42,6 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: |
-          ghcr.io/zengenti/flask-forge:latest
-          ghcr.io/zengenti/flask-forge:${{ env.COMMIT_SHORT_SHA }} 
+          ghcr.io/joejcollins/aqua-marina:latest
+          ghcr.io/joejcollins/aqua-marina:${{ env.COMMIT_SHORT_SHA }}
+...
