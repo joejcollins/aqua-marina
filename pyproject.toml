@@ -46,13 +46,13 @@ exclude = ["**/node_modules",
 ]
 reportMissingImports = true
 reportMissingTypeStubs = true
-pythonVersion = "3.10"
+pythonVersion = "3.11"
 pythonPlatform = "Linux"
 
 [tool.ruff]
 lint.select = ["F", "E", "W", "C90", "I"]
 lint.fixable = ["ALL"]
-target-version = "py310"
+target-version = "py311"
 exclude = [
     ".git",
     ".github",
