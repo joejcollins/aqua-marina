@@ -15,6 +15,5 @@ help: # Show help for each of the makefile recipes.
 check-path:
 	@echo $(PATH)
 
-test:
-	conda activate aqua-marina
-	pytest ./tests
+test: # Run the tests in the conda environment.
+	conda init && conda activate aqua-marina && pytest ./tests
