@@ -6,8 +6,8 @@ on:
     paths:
       - 'Dockerfile'
       - 'environment.yml'
+      - '.github/workflows/build-docker-image.yml'
 
-# Run building the docker image that runs our Flask App?
 jobs:
   build-and-push:
     runs-on: ubuntu-latest

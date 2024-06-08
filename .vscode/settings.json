@@ -42,5 +42,30 @@
     "[python]": {
       "editor.formatOnSave": true
     },
-    "workbench.colorTheme": "Visual Studio Light"
+    "workbench.colorTheme": "Visual Studio Light",
+    "cSpell.words": [
+      "abcdefghijklmnopqrstuvwxyz",
+      "charliermarsh",
+      "cmap",
+      "colormaps",
+      "colour",
+      "devcontainer",
+      "eamodio",
+      "figsize",
+      "GPSTAGS",
+      "Grayscale",
+      "imageio",
+      "immeta",
+      "imread",
+      "imshow",
+      "imwrite",
+      "ipympl",
+      "joejcollins",
+      "mypy",
+      "ndarray",
+      "numpy",
+      "pyproject",
+      "skimage",
+      "venv"
+    ]
 }
