@@ -1,4 +1,3 @@
-# Upgrade the virtual environment and report.
-mv /tmp/conda/.conda ./.conda
-make venv
+# Add the local package to the prebuilt environment and report.
+make env
 make report

@@ -1,3 +1,4 @@
+name: aqua-marina
 channels:
   - conda-forge
 dependencies:
