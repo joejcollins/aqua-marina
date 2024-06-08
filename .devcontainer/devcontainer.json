@@ -6,6 +6,11 @@
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/starship:1": {}
 	},
+	"hostRequirements": {
+		"cpus": 2,
+		"memory": "8gb",
+		"storage": "32gb"
+	 },
 	// Use 'forwardPorts' to make a ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
