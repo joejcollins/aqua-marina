@@ -19,6 +19,6 @@ jobs:
 
     - name: Add the local package and run tests.
       run: |
-        make venv
+        make env
         make test
 ...
