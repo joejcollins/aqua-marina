@@ -11,6 +11,8 @@
 
 ## Notes
 
+* https://pad.carpentries.org/nPAMkEhdmhwLcNEzIw1a
+
 ```bash
 # To activate the environment:
     conda activate aqua-marina
