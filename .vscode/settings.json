@@ -50,6 +50,7 @@
       "colormaps",
       "colour",
       "devcontainer",
+      "dtype",
       "eamodio",
       "figsize",
       "GPSTAGS",
@@ -66,6 +67,8 @@
       "numpy",
       "pyproject",
       "skimage",
-      "venv"
+      "venv",
+      "vmax",
+      "vmin"
     ]
 }

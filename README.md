@@ -11,7 +11,7 @@
 
 ## Notes
 
-* https://pad.carpentries.org/nPAMkEhdmhwLcNEzIw1a
+* https://pad.carpentries.org/EI_imageprocessing_2024
 
 ```bash
 # To activate the environment:
