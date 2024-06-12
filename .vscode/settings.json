@@ -67,8 +67,12 @@
       "numpy",
       "pyproject",
       "skimage",
+      "Thresholding",
       "venv",
       "vmax",
-      "vmin"
+      "vmin",
+      "xlabel",
+      "xlim",
+      "ylabel"
     ]
 }
