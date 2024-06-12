@@ -41,6 +41,8 @@ class FileFinderService:
 
     def find_root(self, start_directory: str = ".") -> Any:
         """Find the root of the project."""
-        pyproject_toml = self.find_file_upwards(
-            "pyproject.toml", start_directory)
+        pyproject_toml = self.find_file_upwards("pyproject.toml", start_directory)
         return path.dirname(pyproject_toml) if pyproject_toml else None
+
+    def find_files_glob(self, pattern: str, start_directory: str = ".") -> Any:
+        """Find files matching a pattern."""
