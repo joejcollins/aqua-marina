@@ -65,6 +65,7 @@
       "mypy",
       "ndarray",
       "numpy",
+      "otsu",
       "pyproject",
       "skimage",
       "Thresholding",
