@@ -7,14 +7,8 @@ RUN apt-get --quiet update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# Install uv for everyone not just the current user.
-RUN curl -LsSf https://astral.sh/uv/install.sh | sh \
-    && cp /root/.local/bin/uv /usr/local/bin/uv
-
-# Precache the Python packages for the rstudio user as well.
-COPY pyproject.toml requirements.txt Makefile ./
-RUN make venv
-
 # Add some labels so it looks nice in Github packages.
-LABEL org.opencontainers.image.source=https://github.com/joejcollins/atlanta-shore/
-LABEL org.opencontainers.image.description="atlanta-shore container."
+LABEL org.opencontainers.image.source=https://github.com/joejcollins/aqua-marina/
+LABEL org.opencontainers.image.description="R Server with LaTeX development image for aqua-marina"
+LABEL org.opencontainers.image.version="0.0.1"
+LABEL org.opencontainers.image.authors="Joe J Collins <joejcollins@gmail.com>"

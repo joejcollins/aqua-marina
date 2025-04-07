@@ -27,7 +27,7 @@ Survey area.
         id: 'mapbox/streets-v11',
         accessToken: 'pk.eyJ1Ijoiam9lamNvbGxpbnMiLCJhIjoiY2s1djkydG04MGF0aDNtbWRoeWV5azZrMyJ9.4q2Mqrow-1aCB5bXkJEDDA'
     }).addTo(map);
-    var runLayer = omnivore.gpx('https://raw.githubusercontent.com/joejcollins/atlanta-shore/master/data/raw/spains-hall-fence.gpx')
+    var runLayer = omnivore.gpx('https://raw.githubusercontent.com/joejcollins/aqua-marina/master/data/raw/spains-hall-fence.gpx')
     .on('ready', function() {
         map.fitBounds(runLayer.getBounds());
     })

@@ -1,5 +1,5 @@
 [project]
-name = "atlanta_shore"
+name = "aqua_marina"
 version = "0.0.1"
 authors = [
     { name = "Joe Collins", email = "joejcollins@gmail.com" },
@@ -38,12 +38,12 @@ dependencies = [
 ]
 
 [project.urls]
-"homepage" = "https://github.com/joejcollins/atlanta-shore"
-"repository" = "https://github.com/joejcollins/atlanta-shore"
-"documentation" = "https://github.com/joejcollins/atlanta-shore"
+"homepage" = "https://github.com/joejcollins/aqua-marina"
+"repository" = "https://github.com/joejcollins/aqua-marina"
+"documentation" = "https://github.com/joejcollins/aqua-marina"
 
 [project.scripts]
-run = "atlanta_shore.main:main"
+run = "aqua_marina.main:main"
 
 [tool.pytest.ini_options]
 log_cli = false

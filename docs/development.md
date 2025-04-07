@@ -6,7 +6,7 @@ title: Development Environment
 
 ## Gitpod
 
-* Open at Gitpod <https://gitpod.io/#https://github.com/joejcollins/atlanta-shore>.
+* Open at Gitpod <https://gitpod.io/#https://github.com/joejcollins/aqua-marina>.
 
 ## Python Environment Setup
 
@@ -16,6 +16,6 @@ or
 
 * pip install virtualenvwrapper-win
 
-* mkvirtualenv atlanta-shore
-* workon atlanta-shore
+* mkvirtualenv aqua-marina
+* workon aqua-marina
 * pip install -r requirements.txt
