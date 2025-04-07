@@ -1,8 +1,14 @@
 ^renv$
+^data/
+^.cache/
+^.github/
+^.vscode/
+^renv/
 ^renv\.lock$
 ^requirements\.txt$
 ^reports$
 ^.*\.Rproj$
-.venv
+^.venv
 ^\.Rproj\.user$
 ^LICENSE\.md$
+^tests/

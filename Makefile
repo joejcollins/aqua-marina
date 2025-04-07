@@ -16,5 +16,13 @@ help: # Show help for each of the makefile recipes.
 r:  # Run Rstudio server
 	sudo su - rstudio -c 'rserver'
 
-test: lock  # Run the R tests.
+.PHONY: renv # because there is a directory called renv.
+renv:  # Setup the renv.
+	R -e "install.packages('renv'); renv::restore();"
+
+venv:  # Create the Python virtual environment so we can use Radian.
+	uv venv .venv
+	uv pip install --python .venv/bin/python radian
+
+test:  # Run the R tests.
 	R -e "devtools::test()"
