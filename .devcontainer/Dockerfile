@@ -9,6 +9,6 @@ RUN apt-get --quiet update \
 
 # Add some labels so it looks nice in Github packages.
 LABEL org.opencontainers.image.source=https://github.com/joejcollins/aqua-marina/
-LABEL org.opencontainers.image.description="R Server with LaTeX development image for aqua-marina"
+LABEL org.opencontainers.image.description="R Server with LaTeX image for aqua-marina"
 LABEL org.opencontainers.image.version="0.0.1"
 LABEL org.opencontainers.image.authors="Joe J Collins <joejcollins@gmail.com>"
