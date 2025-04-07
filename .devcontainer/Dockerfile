@@ -8,7 +8,7 @@ RUN curl -LsSf https://astral.sh/uv/install.sh | sh \
 # Install LaTeX and packages to support the R packages.
 RUN apt-get --quiet update \
     && apt-get install --assume-yes texlive-latex-extra texlive-extra-utils latexmk \
-    && apt-get install --assume-yes libgdal-dev libgeos-dev libproj-dev libtbb-dev \
+    && apt-get install --assume-yes libgdal-dev libgeos-dev libproj-dev libtbb-dev gdal-bin \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
