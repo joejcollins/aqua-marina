@@ -26,6 +26,9 @@ git config --global --add safe.directory /workspaces
 # Also don't sign the commits because RStudio can't seem to manage this.
 git config commit.gpgSign false
 
+# Create the virtual environment with Radian.
+make venv
+
 # Get the data and symlink to it.
 cd ..
 git clone https://github.com/joejcollins/atlanta-shore.git
