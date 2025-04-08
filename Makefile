@@ -14,6 +14,7 @@ help: # Show help for each of the makefile recipes.
 
 .PHONY: r # because there is a directory called r.
 r:  # Run Rstudio server
+	@echo "https://127.0.0.1:8787/"
 	sudo su - rstudio -c 'rserver'
 
 .PHONY: renv # because there is a directory called renv.
