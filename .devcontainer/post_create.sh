@@ -32,6 +32,7 @@ uv pip install --python .venv/bin/python radian pre-commit
 .venv/bin/pre-commit install
 
 # Get the data and symlink to it.
+sudo chown -R rstudio:rstudio /workspaces
 cd ..
 git clone --depth=1 https://github.com/joejcollins/atlanta-shore.git
 ln -s  ../atlanta-shore/data ./aqua-marina/data
