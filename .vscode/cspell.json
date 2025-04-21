@@ -105,6 +105,7 @@
         "Roxygen",
         "Roxygenize",
         "rserver",
+        "rsession",
         "Rstudio",
         "rsync",
         "rtest",
