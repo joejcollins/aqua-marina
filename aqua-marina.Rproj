@@ -2,8 +2,8 @@ Version: 1.0
 ProjectId: adba795f-74d0-4334-bddf-bef6f42adae3
 
 RestoreWorkspace: No
-SaveWorkspace: Default
-AlwaysSaveHistory: Default
+SaveWorkspace: No
+AlwaysSaveHistory: Yes
 
 EnableCodeIndexing: Yes
 UseSpacesForTab: Yes
@@ -13,4 +13,13 @@ Encoding: UTF-8
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
 
-BuildType: Makefile
+AutoAppendNewline: Yes
+StripTrailingWhitespace: Yes
+LineEndingConversion: Posix
+
+BuildType: Package
+PackageUseDevtools: Yes
+PackageInstallArgs: --no-multiarch --with-keep.source
+PackageRoxygenize: rd,collate,namespace
+
+SpellingDictionary: en_GB

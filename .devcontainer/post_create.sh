@@ -26,8 +26,10 @@ git config --global --add safe.directory /workspaces
 # Also don't sign the commits because RStudio can't seem to manage this.
 git config commit.gpgSign false
 
-# Create the virtual environment with Radian.
-make venv
+# Create the Python environment so we can use the radian console and pre-commit.
+uv venv .venv
+uv pip install --python .venv/bin/python radian pre-commit
+.venv/bin/pre-commit install
 
 # Get the data and symlink to it.
 cd ..
