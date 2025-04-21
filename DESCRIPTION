@@ -8,35 +8,15 @@ Authors@R:
 Description: R analysis of the Spains Hall botanical data.
 License: MIT + file LICENSE
 Encoding: UTF-8
-Depends: R (>= 4.0)
+Depends: R (>= 4.4)
 Imports:
-    cli,
-    cpp11,
     devtools,
     dplyr,
-    fansi,
     ggplot2,
-    glue,
-    lattice,
     leaflet,
-    lifecycle,
-    magrittr,
-    MASS,
-    Matrix,
-    mgcv,
-    nlme,
-    pillar,
-    pkgconfig,
-    purrr,
-    R6,
     readr,
     renv,
-    rlang,
-    stringi,
     stringr,
     tibble,
-    tidyr,
-    utf8,
-    vctrs,
-    withr,
+    tidyr
 RoxygenNote: 7.3.2

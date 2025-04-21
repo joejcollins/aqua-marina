@@ -1,9 +1,7 @@
 {
-    "name": "Python and R Data Science Environment",
+    "name": "aqua-marina: R and LaTeX",
     "image": "ghcr.io/joejcollins/aqua-marina:latest",
-    "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-    },
+    "features": {},
     "hostRequirements": {
         "cpus": 4,
         "memory": "7gb"
