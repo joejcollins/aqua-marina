@@ -5,6 +5,7 @@ on:
   push:
     branches: [ main ]
     paths:
+      - 'renv.lock'
       - '.github/workflows/build-docker-image.yml'
       - '.devcontainer/Dockerfile'
 
