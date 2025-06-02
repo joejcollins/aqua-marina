@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
-library(atlanta.shore)
+library(aqua.marina)
 
-test_check("atlanta.shore")
+test_check("aqua.marina")
